@@ -1,4 +1,7 @@
-<template>
+/**
+ * 演示用的，这里没用到这个文件
+ * @type {String}
+ */
   <div id="app">
     <img src="./assets/logo.png">
     <router-view></router-view>

@@ -1,5 +1,5 @@
 /**
- * 根节点
+ * 页面的入口，负责页面的局部
  */
 
 <template>
@@ -9,7 +9,6 @@
         <img src="../assets/logo.png">
          <div class="head-nav">
           <ul class="nav-list">
-            
             <li>登录</li>
             <li class="nav-pile">|</li>
             <li>注册</li>
@@ -89,9 +88,6 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-.head-logo {
-  float: left;
-}
 .app-head-inner img {
   width: 50px;
   margin-top: 20px;
@@ -125,17 +121,6 @@ body {
 }
 ul li {
   padding-left: 10px;
-}
-
-.button {
-  background: #4fc08d;
-  color: #fff;
-  display: inline-block;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-.button:hover {
-  background: #4fc08d;
 }
 
 </style>

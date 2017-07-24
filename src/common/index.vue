@@ -1,3 +1,6 @@
+/**
+ * 树形和echarts的展示
+ */
 <template>
   <div class="index-wrap">
     <div class="index-left">
@@ -6,7 +9,6 @@
         <ul v-for="menuItem in theModel">
           <myTree class="item" :model="menuItem"></myTree>
         </ul>
-       
       </div>
     </div>
     <div class="index-right">
@@ -103,9 +105,7 @@ export default {
       });
     }
   }
- 
 }
-   
 </script>
 
 <style scoped>

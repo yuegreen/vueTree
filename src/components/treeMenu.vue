@@ -1,3 +1,7 @@
+/**
+ * 树的组件，主要功能在这里实现
+ * 
+ */
 <template>
   
   <li>
@@ -15,8 +19,10 @@
     <ul v-show="open" v-if="isFolder">
       <tree-menu v-for="item in model.children" :model="item"></tree-menu>
       <li class="add" @click="addChild">
-      <i class="fa fa-plus-square-o" style="padding-left: 20px;"><i style="display: inline-block;padding-left: 20px;">add</i></i>
-    </li>
+        <i class="fa fa-plus-square-o" style="padding-left: 20px;">
+          <i style="display: inline-block;padding-left: 20px;">add</i>
+        </i>
+      </li>
     </ul>
   </li>
 </template>
