@@ -2,6 +2,9 @@
 
 > A Vue.js project
 
+* 用vue构建一个树形，参考vue.js官网上的树形组件
+* 简单地引用了一份echarts柱形图
+
 ## Build Setup
 
 ``` bash
